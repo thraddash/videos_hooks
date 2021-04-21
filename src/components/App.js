@@ -1,11 +1,15 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import SearchBar from './SearchBar';
 import youtube from '../apis/youtube';
 import VideoList from './VideoList';
 import VideoDetail from './VideoDetail';
 
+const App = () => {}
+    const [videos, setVideos] = useState([]);
+    const [selectedVideo, setSelectedVideo] = useState(null);
+};
+
 class App extends React.Component {
-// add callback method to class App when user submits SearchBar form
     state = { videos: [], selectedVideo: null };
  
     componentDidMount() {
