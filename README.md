@@ -2,7 +2,7 @@
 [![npm version][npm-shield]][npm-url]
 [![GitHub commit activity][commits-shield]][commits-url]
 
-# Youtube Browser App
+# Youtube Browser App (using Hooks)
 <img src="https://github.com/thraddash/videos/blob/master/src/images/mockup.png" width="700" title="Mockup">
 
 <!-- TABLE OF CONTENTS -->
