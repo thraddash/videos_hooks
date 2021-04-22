@@ -8,7 +8,8 @@ const useVideos = (defaultSearchTerm) => {
 
     useEffect(() => {
         search(defaultSearchTerm);
-    }, []); // 2nd argv empty array, run inside function one time
+    }, [defaultSearchTerm]); // 2nd argv empty array, run inside function one time
+    //added defaultSearchTerm in array, anytime you make use of a variable outside useEffect into function array
 
     const search = async term => {
         const response = await youtube.get('/search', {
